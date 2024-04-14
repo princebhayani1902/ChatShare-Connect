@@ -5,7 +5,7 @@ const SignUp = () => {
                 <h1 className='text-3xl font-semibold text-center text-gray-300'>
                     <span className='text-blue-500'> ShareChat Connect</span>
                 </h1>
-                <h1 className='text-3xl font-semibold text-center text-gray-300'>
+                <h1 className='text-3xl font-semibold text-center text-gray-300 pt-2'>
                     Sign Up 
                 </h1>
 
@@ -34,14 +34,12 @@ const SignUp = () => {
                             className='w-full input input-bordered h-10'
                         />
                     </div>
-
+                    <div>
+                        <button className='btn btn-sm mt-3 border border-slate-700 h-10 w-full'>Sign Up</button>
+                    </div>
                     <a className='text-sm hover:underline hover:text-blue-600 mt-2 inline-block' href='#'>
                         Already have an account?
                     </a>
-
-                    <div>
-                        <button className='btn btn-block btn-sm mt-2 border border-slate-700'>Sign Up</button>
-                    </div>
                 </form>
             </div>
         </div>
