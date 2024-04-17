@@ -1,15 +1,11 @@
-
-import './App.css'
-import Login from './pages/Login'
-import SignUp from './pages/SignUp'
+import "./App.css";
+import Home from "./pages/Home";
 function App() {
-
-  return (
-    <div className='p-4 h-screen flex items-center justify-center'>
-      {/* <SignUp /> */}
-      <Login />
-    </div>
-  )
+	return (
+		<div className='p-4 h-screen flex items-center justify-center'>
+			<Home />
+		</div>
+	);
 }
 
 export default App
